@@ -7,9 +7,16 @@ Check out this repo, and launch this notebook in your browser, this daily monito
   3. CSCRATCH (Lustre), 32 nodes MPI/POSIX FPP/SSF IOR read/write
   
 You can change the parameter from 'readwrite' to 'write' or 'read', if you want to plot them separately.
-You could also specify the number of days to plot the last few days of log, which is generally good, otherwise, the plot is too dense.
-    e.g., latest=20 # plot the last 20 days' IOR log
 
+You could also specify the number of days to plot the last few days of log, which is generally good, otherwise, the plot is too dense.
+```python
+  IOR_HSW_DIR="/project/projectdirs/mpccc/fbench/IOR_CSCRATCH/IOR_HSW"
+  NODES_POSIXMPI_DIR="1node_posix_ssf"
+  BLOCK_SIZE="_1000000_" 
+  title="CSCRATCH HSW 1node posix ssf"
+  latest=20
+  parser_ior(IOR_HSW_DIR,NODES_POSIXMPI_DIR,BLOCK_SIZE,"readwrite",title,latest=latest) 
+```
 You must be a NERSC employee to use this.   
 
 
