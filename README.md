@@ -1,4 +1,4 @@
-# IOR-Benchmarks-cori
+# IOR-Benchmarks-Cori
 Daily IOR Benchmarking on Cori CSCRATCH and Project Filesystem
 
 Check out this repo, and launch this notebook in your browser, this daily monitor includes:
