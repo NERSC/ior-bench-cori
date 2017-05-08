@@ -17,7 +17,9 @@ You could also specify the number of days to plot the last few days of log, whic
   latest=20
   parser_ior(IOR_HSW_DIR,NODES_POSIXMPI_DIR,BLOCK_SIZE,"readwrite",title,latest=latest) 
 ```
-You must be a NERSC employee to use this.   
+![Alt text](https://cloud.githubusercontent.com/assets/1396867/25825720/e4e0ccbc-33f8-11e7-990f-fbe421420919.png)
+
+Available to NERSC employees.   
 
 
 # Temporary Use for All Users (who don't have permission to fbench account):
