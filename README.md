@@ -16,6 +16,6 @@ You must be a NERSC employee to use this.
 1. git clone https://github.com/NERSC/ior-bench-cori
 2. launch ipython-dev 
 3. replace log directory '/project/projectdirs/mpccc/fbench/IOR_CSCRATCH//IOR_HSW’ with ‘/global/cscratch1/sd/fbench/IOR_Temp17//IOR_HSW’
-4. replace log directory ‘/project/projectdirs/mpccc/fbench/IOR_DVS/1node_posix_fpp/CORI_dvs_1’ with ‘/global/cscratch1/sd/fbench/IOR_Temp17/1node_posix_fpp/CORI_dvs_1’
+4. replace log directory ‘/project/projectdirs/mpccc/fbench/IOR_DVS/1node_posix_fpp/CORI_dvs_1’ with ‘/global/cscratch1/sd/fbench/IOR_Temp17/IOR_DVS/1node_posix_fpp/CORI_dvs_1’
 5. Run all in your notebook
 
